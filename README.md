@@ -26,3 +26,63 @@ The dataset contains EEG (Electroencephalogram) brainwave recordings used for ep
 
 It consists of numerical EEG signal features collected from multiple brain activity recordings, where the target labels represent seizure and non-seizure conditions for classification tasks.
 
+___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+EEG Seizure Detection using MLMSNN
+
+├── dataset/
+│   └── Epileptic_Seizure_Recognition.csv
+
+├── notebooks/
+│   └── EEG_Classification_Final.ipynb
+
+├── presentation/
+│   └── EEG_Major_PPT.pptx
+
+└── README.md
+
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+ Project Detail
+ 
+Handling Imbalanced Dataset: For this project we use SMOTE (Synthetic Minority Over-sampling Technique) technique to handle imbalanced dataset.
+
+Machine Learning Models: For this project I will implement the data to these models and determine which one fits the best:
+
+Logistic Regression
+
+Decision Tree
+
+Naive Bayes
+
+K-Nearest Neighbor
+
+Support Vector Machine
+
+Random Forest
+
+XGBoost
+
+Model Parameter: To determine which machine learning model fits the dataset the best, I will use this parameter to decide:
+
+Precision-Recall
+
+F1-Score
+
+Accuracy
+like thsi give for my proj also
+
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Results
+
+~The XGBoost model achieved 99.93% accuracy, with a precision of 94.06% and recall of 71.15%.
+
+~It correctly detected most fraud cases while keeping false alarms low.
+____________________________________________________________________________________________________________________________________________
+
+Conclusion
+
+~Using SMOTE with XGBoost proved effective for handling imbalanced fraud data.
+
+~The model shows strong performance and can be scaled for real-world fraud detection systems.
+for my project
+
